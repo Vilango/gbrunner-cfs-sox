@@ -10,6 +10,4 @@ If no binaries found on the system it will warn and throw an error if used, agai
 
 > For use with `CollectionFS`, please refer to [the CollectionFS documentation](https://github.com/CollectionFS/Meteor-CollectionFS#image-manipulation) for instructions. This package does not require `CollectionFS` and can be used alone.
 =======
-Meteor-cfs-sox
-==============
 
