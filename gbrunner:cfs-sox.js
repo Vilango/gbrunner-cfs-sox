@@ -6,7 +6,7 @@ var path = Npm.require('path');
 var fs = Npm.require('fs');
 
 sox = function() {
-  throw new Error('cfs:sox could not find "sox"');
+  throw new Error('gbrunner:cfs-sox could not find "sox"');
 };
 
 var foundSox = false;

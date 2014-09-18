@@ -1,6 +1,7 @@
 Package.describe({
   version: '0.0.1',
   summary: "Adds `sox` to scope with the ability to perform audio manipulation"
+  git: "https://github.com/Vilagno/Meteor-cfs-sox.git"
 });
 
 Npm.depends({
@@ -8,12 +9,15 @@ Npm.depends({
 });
 
 //also requires that you install the sox package on your server
-Package.on_use(function(api) {
-  api.add_files('sox.js', 'server');
+Package.onUse(function(api) {
+  api.versionsFrom('METEOR@0.9.1');
+  api.add_files('gbrunner:cfs-sox.js', 'server');
   api.export('sox');
 });
 
-Package.on_test(function(api) {
-  api.use(['cfs-sox', 'test-helpers', 'tinytest'], 'server');
-  api.add_files('tests/server-tests.js', 'server');
+Package.onTest(function(api) {
+  api.use('tinytest');
+  api.use('gbrunner:cfs-sox');
+  api.addFiles('gbrunner:cfs-sox-tests.js');
 });
+
