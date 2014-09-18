@@ -1,11 +1,11 @@
 Package.describe({
-  version: '0.0.4',
+  version: '0.0.5',
   summary: "Adds `sox` to scope with the ability to perform audio manipulation",
   git: "https://github.com/Vilango/gbrunner-cfs-sox"
 });
 
 Npm.depends({
-  "vilango-sox": "0.1.3"
+  "vilango-sox": "0.1.4"
 });
 
 //also requires that you install the sox package on your server
