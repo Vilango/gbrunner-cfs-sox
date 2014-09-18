@@ -1,5 +1,5 @@
 Package.describe({
-  version: '0.0.2',
+  version: '0.0.3',
   summary: "Adds `sox` to scope with the ability to perform audio manipulation",
   git: "https://github.com/Vilango/gbrunner-cfs-sox"
 });

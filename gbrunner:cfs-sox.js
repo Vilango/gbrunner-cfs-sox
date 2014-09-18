@@ -1,7 +1,7 @@
 //wrap sox() object with an object that exposes the same methods, with the addition of a
 //.save() method that overwrites the FS.File's .buffer with the result
 
-var nodesox = Npm.require('sox');
+var nodesox = Npm.require('vilango-sox');
 var path = Npm.require('path');
 var fs = Npm.require('fs');
 
