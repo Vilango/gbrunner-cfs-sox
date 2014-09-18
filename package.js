@@ -1,7 +1,7 @@
 Package.describe({
   version: '0.0.1',
-  summary: "Adds `sox` to scope with the ability to perform audio manipulation"
-  git: "https://github.com/Vilagno/Meteor-cfs-sox.git"
+  summary: "Adds `sox` to scope with the ability to perform audio manipulation",
+  git: "https://github.com/Vilango/gbrunner-cfs-sox"
 });
 
 Npm.depends({
